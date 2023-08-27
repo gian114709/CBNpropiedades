@@ -1,0 +1,42 @@
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+.img1, .img3 {
+    width: 420px;
+    border-radius: 20px;
+}
+
+.img2 {
+    width: 610px;
+    border-radius: 20px;
+}
+
+/* Estilos para el contenedor de imágenes */
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: #eb6262; 
+}
+
+/* Estilos para los iconos de contacto */
+.contactoCorreo, .imgWpp {
+    width: 30px;
+    border-radius: 10px;
+}
+
+/* Estilos para el bloque de contacto de WhatsApp */
+.contactoWpp {
+    width: 30px;
+    border-radius: 10px;
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+}

@@ -1,0 +1,120 @@
+.layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid:
+      "header header header" auto
+      "leftSide body rightSide" 1fr
+      "footer footer footer" auto
+      / auto 1fr auto;
+    gap: 8px;
+  }
+  
+  .header { grid-area: header;}
+  .leftSide { grid-area: leftSide; }
+  .body { grid-area: body; }
+  .rightSide { grid-area: rightSide; }
+  .footer { grid-area: footer; }
+  /* Estilos generales */
+.logo {
+  width: 70px;
+}
+
+p {
+  color: #000;
+  margin-left: 30px;
+}
+
+.body {
+  background-image: url(../img/fondobody.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 900px;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.leftSide,
+.rightSide {
+  background-color: rgb(235, 98, 98);
+  border-radius: 20px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar-nav {
+  margin-left: 140px;
+}
+
+.nav-item {
+  color: red;
+}
+
+/* Estilos de las imágenes */
+.img1 {
+  width: 190px;
+  margin-bottom: 130px;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.imgbody,
+.imgbody3,
+.imgbody2 {
+  width: 550px;
+  border-radius: 20px;
+  margin-left: 160px;
+  margin-top: 90px;
+}
+
+.horarios {
+  width: 230px;
+  border-radius: 40px;
+}
+
+/* Estilos del pie de página */
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/fondobody.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.wpp,
+.correo {
+  display: flex;
+  align-items: center;
+}
+
+.wpp img,
+.correo img {
+  margin-right: -10px;
+  width: 30px;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+
+.correo {
+  position: absolute;
+  bottom: -250px;
+  right: 15px;
+  margin: 0;
+}
+
+.titfoot {
+  margin-left: 120px;
+}
+
+.presentación{
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-right: 30px;
+  padding: 20px;
+  font-weight: bolder;
+  font-style: oblique;
+
+}

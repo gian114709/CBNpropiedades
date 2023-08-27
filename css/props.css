@@ -1,0 +1,88 @@
+.logo{
+    width: 70px;
+} 
+.menuprod ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: darkorange;
+    padding: 30px;
+    margin: 0px;
+   
+    
+
+}
+
+.menuprod li {
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    font-family: 'Vast Shadow', cursive;
+    margin: 15px;
+    
+    
+}
+
+.links{
+    color: black;
+    text-decoration: wavy;
+    
+}
+
+
+h4 {
+    background-color: darkorange;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    padding: 30px;
+    margin: 0px;
+    font-size: 25px;
+
+}
+
+
+
+.container {
+    font-family: 'Vast Shadow', cursive;
+    
+
+}
+
+.card-body {
+    background-color: silver;
+    text-align: center;
+    font-family: 'Vast Shadow', cursive;
+    
+    
+}
+
+.card-footer{
+    
+    text-align: center;
+    color: black;
+    background-color: rgb(235, 98, 98);
+    margin: 0;
+    padding: 10px;
+}
+
+.comprar{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    
+    
+}
+
+.btn-primary{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.btn-primary:hover{
+color: mediumseagreen;
+background-color: black;
+}
+
+.malt{
+    width: 700px;
+}

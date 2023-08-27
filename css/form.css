@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 98, 98);
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/fondoopcion1.jpg);
+  }
+  
+  .container, .container1, .container2 {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-style: double;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .logoTasacion{
+    width: 160px;
+    border-radius: 20px;
+  }
+  .container1{
+    margin-left: 50px;
+  }
+  .container2{
+    margin-left: 850px;
+    margin-top: -645px;
+   
+  }
+  .logoCorreo{
+    width: 100px;
+    border-radius: 20px;
+  }
