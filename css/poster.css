@@ -1,0 +1,33 @@
+#poster{
+    height: 200px;
+    width: 300px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: 
+    url(https://i.pinimg.com/564x/3d/9e/ee/3d9eee3cb72aca18addfbcca27c257d2.jpg)
+    no-repeat
+    center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+#poster:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+}
+
+#poster2{
+    height: 200px;
+    width: 300px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: 
+    url(https://i.pinimg.com/564x/b5/2d/79/b52d7979095eb83d5b499cb4cff0ab05.jpg)
+    no-repeat
+    center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+#poster2:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+}
